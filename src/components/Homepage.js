@@ -7,13 +7,13 @@ import News from "./News";
 import { Link } from "react-router-dom";
 const { Title } = Typography;
 const Homepage = () => {
-  const { data, isFetching } = useGetCryptosQuery();
+  const { data, isFetching } = useGetCryptosQuery(10);
   const globalStats = data?.data?.stats;
   if (isFetching) return "Loading....";
   return (
     <>
       <Title level={2} className="heading">
-        Cryto Stats
+        Global Crypto Stats
       </Title>
       <Row gutter={[32, 32]}>
         <Col span={12}>

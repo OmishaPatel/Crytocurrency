@@ -3,7 +3,7 @@
   --bgPrimary: #fff;
   --bgSecondary: #f9f9f9;
   --blue: #0071bd;
-  --light-blue: #cadff3;
+  --light-blue: #4f6b86;
   --border: #d9d9d9;
 }
 
@@ -37,9 +37,8 @@ a:hover {
 .nav-container {
   position: fixed;
   left: 0;
-  margin: 10px;
+  width: 270px;
   height: 100vh;
-  margin: 0px;
   background-color: #141414;
 }
 

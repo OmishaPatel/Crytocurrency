@@ -15,28 +15,28 @@ const Navbar = () => {
       <div className="logo-container">
         <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo">
-          <Link to="/">CrytoCurrency</Link>
+          <Link to="/">Crypto App</Link>
         </Typography.Title>
         {/* <Button className="menu-control-container"></Button> */}
       </div>
-      <Menu style={{ backgroundColor: "#141414", color: "white" }}>
+      <Menu style={{ backgroundColor: "#141414", color: "blue" }}>
         <Menu.Item icon={<HomeOutlined />}>
-          <Link to="/" style={{ color: "white" }}>
+          <Link to="/" style={{ color: "blue" }}>
             Home
           </Link>
         </Menu.Item>
         <Menu.Item icon={<FundOutlined />}>
-          <Link to="/cryptocurrencies" style={{ color: "white" }}>
+          <Link to="/cryptocurrencies" style={{ color: "blue" }}>
             Cryptocurrencies
           </Link>
         </Menu.Item>
         <Menu.Item icon={<MoneyCollectOutlined />}>
-          <Link to="/exchanges" style={{ color: "white" }}>
+          <Link to="/exchanges" style={{ color: "blue" }}>
             Exchanges
           </Link>
         </Menu.Item>
         <Menu.Item icon={<BulbOutlined />}>
-          <Link to="/news" style={{ color: "white" }}>
+          <Link to="/news" style={{ color: "blue" }}>
             News
           </Link>
         </Menu.Item>
