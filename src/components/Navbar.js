@@ -19,18 +19,26 @@ const Navbar = () => {
         </Typography.Title>
         {/* <Button className="menu-control-container"></Button> */}
       </div>
-      <Menu theme="dark">
+      <Menu style={{ backgroundColor: "#141414", color: "white" }}>
         <Menu.Item icon={<HomeOutlined />}>
-          <Link to="/">Home</Link>
+          <Link to="/" style={{ color: "white" }}>
+            Home
+          </Link>
         </Menu.Item>
         <Menu.Item icon={<FundOutlined />}>
-          <Link to="/cryptocurrencies">Cryptocurrencies</Link>
+          <Link to="/cryptocurrencies" style={{ color: "white" }}>
+            Cryptocurrencies
+          </Link>
         </Menu.Item>
         <Menu.Item icon={<MoneyCollectOutlined />}>
-          <Link to="/exchanges">Exchanges</Link>
+          <Link to="/exchanges" style={{ color: "white" }}>
+            Exchanges
+          </Link>
         </Menu.Item>
         <Menu.Item icon={<BulbOutlined />}>
-          <Link to="/news">News</Link>
+          <Link to="/news" style={{ color: "white" }}>
+            News
+          </Link>
         </Menu.Item>
       </Menu>
     </div>
