@@ -8,4 +8,4 @@ coming soon
 
 # Website
 
-![](crypto01.netlify.app)
+[Crypto App](https://crypto01.netlify.app)
