@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Select, Typography, Row, Col, Avatar, Card } from "antd";
 import moment from "moment";
-
+import Loading from "./Loader";
 import { useGetCryptosQuery } from "../services/cryptoApi";
 import { useGetCryptoNewsQuery } from "../services/cryptoNewsApi";
 
@@ -19,7 +19,7 @@ const News = ({ simplified }) => {
     count: simplified ? 6 : 12,
   });
 
-  if (!cryptoNews?.value) return "Loading ...";
+  if (!cryptoNews?.value) return <Loading />;
 
   return (
     <Row gutter={[24, 24]}>
