@@ -1,10 +1,14 @@
 # Introduction
 
-Cryptocurrency App
+The cryptocurrency app fetches data from two different API's to display trending top 10 cryptos. There is also a details page about each crypto that displays extra information about that specific cryptocurrency with the charts. Unit testing with react library testing.
 
-# Description
+# Technologies/Libraries Used
 
-coming soon
+React Hooks
+React-Redux toolkit
+Chart.js
+Moment
+Millify
 
 # Website
 

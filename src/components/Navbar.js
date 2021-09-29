@@ -31,13 +31,14 @@ const Navbar = () => {
     }
   }, [screenSize]);
   return (
-    <div className="nav-container">
+    <div data-testid="nabvar" className="nav-container">
       <div className="logo-container">
         <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo">
           <Link to="/">Crypto App</Link>
         </Typography.Title>
         <Button
+          data-testid="toggle"
           className="menu-control-container"
           onClick={() => setActiveMenu(!activeMenu)}
         >
